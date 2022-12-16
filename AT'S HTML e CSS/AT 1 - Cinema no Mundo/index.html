@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <!-- Olá Professor/Monitor a resolução da minha tela é 3440/1440, os botões estão funcionais -->
+  
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Cinema Pelo Mundo</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <link rel="shortcut icon" href="../img/logo_1.jpg">
+</head>
+
+<body>
+  <script src="script.js"></script>
+ <header>
+  <div class="content">
+    <nav>
+      <div class="content-img">
+         <a id="content-home" href="index.html">
+          <img id="img-head" src="../img/logo.jpg" alt="Imagem do Cinema com balões e uma fita de filme."
+            style="width: 60px; height: 60px; cursor: pointer;">
+          <h2 id="cinema-title">Cinema Pelo Mundo</h2>
+         </a>
+      </div>
+      <div class="nav-items">
+         <a href="local.html" id="page-local">
+            <p id="local-nav">Local</p>
+          </a>
+          <a href="filmes.html" id="page-filmes">
+          <p id="filmes-nav">Filmes</p>
+          </a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+  <main>
+    <div class="content-main">
+      <div class="content-cinema">
+        <h1>Cinema</h1>
+        <img src="../img/balaoCinema.jpg" alt="Balões com a escrita de Hollywood" style="height: 50%; width: 60%;">
+        <p style="overflow: auto;">O Cinema (do em grego: κίνημα, kinema "movimentos" e γράφειν, graphein "registrar"),
+          também chamada sétima
+          arte, ou, em certos contextos cinematografia, pode ser definida como a técnica e a arte de fixar e de
+          reproduzir imagens que suscitam impressão de movimento, assim como a indústria que produz estas imagens.
+        </p>
+        <p style="overflow: auto;">Oferecemos experiências cinematográficas inovadoras pelo mundo através de nossos
+          balões mirabolantes, movido
+          a amor e hélio.</p>
+        <br>
+
+        <button class="content-movies" onclick="telaFilme()" type="button">
+            Veja nossos filmes em cartaz
+        </button>
+
+      </div>
+      <div class="content-video">
+        <h1 id="title-video">Vídeo do cinema pelo mundo</h1>
+        <iframe width="3440" height="1282" src="https://www.youtube.com/embed/avFXu5dJQII" title="A Origem do Cinema"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen style="height: 50%; width: 80%;"></iframe>
+        <h3>Veja Nosso espetáculo!</h3>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="content-footer">
+      <p>2022</p>
+      <p>Cinema Pelo Mundo</p>
+      <p>Todos os direitos Reservados.</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+body{
+font-family: 'Montserrat', sans-serif;
+}
+
+.content{
+  height: 8.5vh;
+  width: 100%;
+  background: black;
+  display: flex;
+  flex-direction: row;
+  color: #bcbcbc;
+  justify-content: space-between;
+}
+
+#content-home{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex-direction: row;
+}
+
+.nav-items{
+  padding: 2%;
+  gap: 30px;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+}
+
+.content-img{
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  width: 50%;
+  color: white;
+}
+
+
+nav{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+
+#local-nav, #filmes-nav{
+  font-weight: 600;
+  font-size: 20px;
+}
+
+#page-local{
+  color: #bcbcbc;
+}
+
+#cinema-title:hover{
+  color: #bcbcbc;
+}
+
+#page-local:hover, #page-filmes:hover{
+  color: white;
+  cursor: pointer;
+}
+
+#page-filmes{
+  color: #bcbcbc;
+}
+
+main{
+  height: calc(100vh - 15.5vh);
+}
+
+footer{
+  height: 7vh;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+div.content-main{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.content-cinema{
+background: #f5f5dc;
+width: 50%;
+height: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 2%;
+gap: 30px;
+}
+
+.content-video{
+  width: 50%;
+  height: 100%;
+  background: #d3d3d3;
+  color: darkblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 2%;
+}
+
+p{
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.content-movies{
+  color: white;
+  background: darkblue;
+  border: 6px solid orange;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  height: 7vh;
+  width: 25vw;
+  cursor: pointer;
+}
+
+.content-movies:hover{
+  opacity: 0.7;
+}
+
+.content-footer{
+  height: 100%;
+  background-color: black;
+  color: white;
+  font-weight: 900;
+  font-size: 26px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+}
+
+#title-video{
+  padding: 0px 0px 20% 0px;
+}
+
+div.content-main-local{
+  height: calc(100vh - 15.5vh);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 2% 0px 0px 0px;
+  background: #f5f5dc;
+}
+
+#local-order{
+  list-style: none;
+  color: black;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.content-filmes{
+  background-color: #f5f5dc;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.cards{
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-img{
+  height: 200px;
+  width: 200px;
+}
+
+.card{
+  height: 600px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 4px solid purple;
+  border-radius: 10px;
+  padding: 10px 0px 10px 10px;
+  overflow: auto;
+}
+
+.close-button{
+  position: absolute;
+  left: calc(100% - 30px);
+}
+
+.table{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0px 0px 2% 0px;
+}
+
+table, td, th{
+  padding: 10px;
+  font-size: 18px;
+  text-align: center;
+  border: 1px solid purple;
+  border-collapse: collapse;
+  font-weight: 900;
+}
