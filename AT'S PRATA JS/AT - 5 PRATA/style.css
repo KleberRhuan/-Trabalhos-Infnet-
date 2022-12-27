@@ -1,0 +1,25 @@
+*{
+  margin: 0; 
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box, .box2{
+  justify-content: center;
+}
+
+#diceButton{
+  cursor: pointer;
+  width: 14vw;
+  height: 5vh;
+  border: 1px solid black;
+  background: blue;
+  color: white;
+  font-family: cursive;
+  border-radius: 10px;
+}
+
+#diceButton:hover{
+  background: white;
+  color: black;
+}
