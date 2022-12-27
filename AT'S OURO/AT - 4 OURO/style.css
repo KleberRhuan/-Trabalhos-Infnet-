@@ -1,0 +1,109 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: sans-serif;
+}
+
+.content-header{
+  padding: 2%;
+  background: white;
+  color: black;
+  width: 100vw;
+  height: 8.5vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+  
+}
+
+.content-footer{
+  padding: 2%;
+  background: white;
+  height: 8.5vh;
+  width: 100vw;
+  color: black;
+  font-weight: 600;
+  font-size: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#title{
+  width: calc(98% - 50px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+main{
+  height: calc(100vh - 17vh);
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: black;
+}
+
+.content-main{
+background: radial-gradient(circle at 100% 100%, #ffffff 0, #ffffff 3px, transparent 3px) 0% 0%/8px 8px no-repeat,
+            radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 3px, transparent 3px) 100% 0%/8px 8px no-repeat,
+            radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 3px, transparent 3px) 0% 100%/8px 8px no-repeat,
+            radial-gradient(circle at 0 0, #ffffff 0, #ffffff 3px, transparent 3px) 100% 100%/8px 8px no-repeat,
+            linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 10px) calc(100% - 16px) no-repeat,
+            linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 16px) calc(100% - 10px) no-repeat,
+            linear-gradient(90deg, #1cd3cb 3%, #52e048 100%);
+border-radius: 8px;
+padding: 9px;
+box-sizing: border-box;
+  width: 20%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.title{
+  padding: 2% 0px 0px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.inputs{
+  padding: 0px 0px 0px 10%;
+  height: 3vh;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.fields{
+  padding: 10% 0px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 20%;
+}
+
+#bttn{
+  border-radius: 10px;
+  height: 2vh;
+  background: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+#bttn:hover{
+  border-color: black;
+  background: black;
+  color: white;
+}
