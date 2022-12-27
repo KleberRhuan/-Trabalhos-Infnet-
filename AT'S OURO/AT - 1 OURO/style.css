@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100%;
+  width: 100%;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+/*Parte do Cabeçalho da página  */
+
+header{
+  background: linear-gradient(90deg, rgba(119,43,190,1) 0%, rgba(255,0,134,1) 100%);
+  color: white;
+}
+
+div.nav1{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  float: left; 
+  height: 5vh;
+}
+
+div.nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+}
+
+img.nav{
+  width: 100%;
+  max-width: 50px;
+  height: auto;
+}
+
+h2.nav{
+  overflow: auto;
+  font-weight: 800;
+}
+
+/* Corpo Main de Página  */
+
+main{
+  background-image: url("megasena.jpg");
+  height: 95vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.content{
+  height: 60vh;
+  width: 50vw;
+}
+
+div.title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(90deg, rgba(119,43,190,1) 0%, rgba(255,0,134,1) 100%);
+  color: white;
+  width: 100%;
+  height: 10%;
+  border: 2px 2px 0px 2px solid black;
+  border-radius: 6px 6px 0px 0px;
+}
+
+/*Campo de Interação com Usuario  */
+
+div.user{
+  padding: 2% 0 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: lightgray;
+  width: 100%;
+  height: 80%;
+  font-size: 24px;
+  border: 0px 2px 2px 2px solid black;
+  border-radius: 0px 0px 6px 6px;
+}
+
+#user-label{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0px 0px 100px 0px;
+}
+
+#bttn{
+  cursor: pointer;
+  height: 8vh;
+  width: 15vw;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+#bttn:hover{
+  color: white;
+  background: darkblue;
+}
+
+#result{
+  background: white;
+  border: 4px solid black;
+  border-radius: 10px;
+}
