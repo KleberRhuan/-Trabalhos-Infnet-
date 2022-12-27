@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Kleber Rhuan</title>
+  <link rel="shortcut icon" href="infnet.png">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<script src="script.js"></script>
+
+  <header>
+    <div class="content-header">
+      <a href="https://www.infnet.edu.br/" target="blank_">
+        <img src="infnet.png" alt="logo do Infnet" style="width: 50px; height: 50px;">
+      </a>
+      <span id="title">
+        <h2> AT - JavaScript</h2>
+      </span>
+    </div>
+  </header>
+
+  <main>
+    <div class="content-main">
+      <div class="title">
+        <h2>Calculo de Gastos</h2>
+      </div>
+      <div class="calcArea">
+        <span class="inputs">
+          <h3>Renda Mensal:</h3>
+        <input type="number" id="wage" value="0">
+        </span>     
+        <span class="inputs">
+         <h3>Gasto com Moradia:</h3>
+        <input type="number" id="moradia" value="0" onblur="notAbove()">
+        </span>
+        <span class="inputs">
+         <h3>Gasto com Educação :</h3>
+        <input type="number" id="educacao" value="0" onblur="notAbove()">
+        </span>
+        <span class="inputs">
+         <h3>Gasto com Transporte:</h3>
+        <input type="number" id="transporte" value="0" onblur="notAbove()">
+        </span>
+        <button type="button" onclick="calcDebts()">Calcular</button>
+        <p id="result" style="overflow: auto;"></p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="content-footer">
+      <p>2022</p>
+      <p>Kleber Rhuan</p>
+      <p>Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>
